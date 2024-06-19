@@ -27,7 +27,7 @@ p{
     height: 500px;
    display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 2) - 12px);
+  grid-auto-columns: calc((100% / 3) - 12px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
@@ -39,10 +39,10 @@ p{
 
 .container .slide .item{
     width: 200px;
-    height: 200px;
+    height: 400px;
     position: absolute;
     top: 50%;
-    transform: translate(90%, -50%);
+    transform: translate(0%, -50%);
     border-radius: 20px;
    box-shadow: 0 0 5px 6px black;
     background-position: 50% 50%;
@@ -186,7 +186,7 @@ p{
     background: #ababab;
     color: #fff;
 }
-@media (max-width: 800px) {
+@media (min-width: 800px) {
  .container{
     position: absolute;
     top: 55%;
@@ -196,7 +196,7 @@ p{
     height: 800px;
    display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 2) - 12px);
+  grid-auto-columns: calc((100% / 3) - 12px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
@@ -223,7 +223,7 @@ p{
     position: absolute;
     top: 45%;
     left: 30px;
-    width: 900px;
+    width: 700px;
     text-align: left;
     color: #eee;
     transform: translate(0, -50%);
@@ -242,7 +242,7 @@ p{
     height: 800px;
    display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 2) - 12px);
+  grid-auto-columns: calc((100% / 3) - 12px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;

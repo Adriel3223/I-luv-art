@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/registro.css">
+   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'
+    rel='stylesheet'>
+   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="sidebar close">
+    <div class="logo-details">
+           <img src="../img/logo.png">
+      <span class="logo_name"style='color:#080808'>Servicios</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="../Index.html">
+          <i class='bx bxs-devices'></i>
+          <span class="link_name">Inicio</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Index.html">Inicio</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="Biblioteca.html">
+          <i class='bx bx-food-menu'></i>
+          <span class="link_name">Biblioteca</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="Biblioteca.html">Biblioteca</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="Musica.html">
+             <i class='bx bxs-playlist'></i>
+            <span class="link_name">Musica</span>
+          </a>
+         
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="Musica.html">Musica</a></li>
+        </ul>
+      </li>
+     
+      <li>
+         <li>
+        <a href="historia.html">
+          <i class='bx bx-image'></i>
+          <span class="link_name">Zona de Arte</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="historia.html">Zona de Arte</a></li>
+        </ul>
+      </li>
+      <!-- Submenú para Iniciar Sesion-->
+        <li>
+          <div class="iocn-link">
+            <a href="registro.html">
+             <i class='bx bxs-user'></i>
+              <span class="link_name">Registrarse</span>
+            </a>
+          </div>
+          <!-- Submenú para Iniciar sesion -->
+          <ul class="sub-menu">
+            <li><a class="link_name" href="registro.html">Registrarse</a></li>
+          </ul>
+        </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+          <i class='bx bxs-contact' ></i>
+          <span class="link_name">Contactanos</span>
+        </a>
+        <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Contactanos</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=5626847568">Whatsapp</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-edit-location'></i>
+          <span class="link_name">¿Quienes somos?</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">¿Quienes somos?</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <img src="../img/eder.png" alt="profileImg">
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Administrador</div>
+        <div class="job">Creador:Adriel</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">I LUV ART</span>
+    </div>
+  </section>
+  
+    <div class="login-form">
+        <div class="text">
+            Registrarse
+        </div>
+        <form action="register.php" method="POST">
+
+            <div class="field">
+                <div class="fas fa-envelope"></div>
+                <input type="text" placeholder="Email" name="username">
+            </div>
+            <div class="field">
+                <div class="fas fa-lock"></div>
+                <input type="password" placeholder="Contraseña" name=password>
+            </div>
+            <button>Registrate</button>
+            
+        </form>
+    </div>
+</body>
+<script src="../js/script.js"></script>
+</html>

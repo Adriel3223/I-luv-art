@@ -1,0 +1,306 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>I luv Art</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/Biblioteca.css">
+    <!-- Link -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'
+    rel='stylesheet'>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Major+Mono+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Major+Mono+Display&family=Sedan+SC&display=swap" rel="stylesheet">
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <img src="../img/logo.png">
+      <span class="logo_name"style='color:#080808'>Servicios</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="../Index.html">
+          <i class='bx bxs-devices'></i>
+          <span class="link_name">Inicio</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Index.html">Inicio</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="Biblioteca.html">
+          <i class='bx bx-food-menu'></i>
+          <span class="link_name">Biblioteca</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="Biblioteca.html">Biblioteca</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="Musica.html">
+             <i class='bx bxs-playlist'></i>
+            <span class="link_name">Musica</span>
+          </a>
+         
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="Musica.html">Musica</a></li>
+        </ul>
+      </li>
+      
+      <li>
+         <li>
+        <a href="historia.html">
+          <i class='bx bx-image'></i>
+          <span class="link_name">Zona de Arte</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="historia.html">Zona de Arte</a></li>
+        </ul>
+      </li>
+      
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+          <i class='bx bxs-contact' ></i>
+          <span class="link_name">Contactanos</span>
+        </a>
+        <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Contactanos</a></li>
+           <li><a href="https://www.facebook.com/share/n86XimDVaZpAgwWe/?mibextid=LQQJ4d">Facebook</a></li>
+            <li><a href="https://www.instagram.com/iluvart27?igsh=MWlnNXppMnpnNWo5Yw==">Instagram</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="quienes.html">
+          <i class='bx bxs-edit-location'></i>
+          <span class="link_name">¿Quienes somos?</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="quienes.html">¿Quienes somos?</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <img src="../img/eder.png" alt="profileImg">
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Administrador</div>
+        <div class="job">Creador:Adriel</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">I LUV ART</span>
+      <!-- Sección de libros -->
+     <div class="wrapper">
+      <i class='bx bx-chevron-left bx-flip-vertical' id="left" ></i>
+      
+      <div class="search-bar">
+
+  <input type="text" id="searchInput" placeholder="Buscar Autor...">
+  <button onclick="searchBooks()">Buscar</button>
+  <datalist id="authorlist"></datalist>
+</div>
+  <!-- Carrousel de libros -->
+   <ul class="carousel">
+      <li class="card">
+        <div class="img"><img src="https://www.clarin.com/2014/05/12/rk7AP-thme_312x240.jpg" alt="img" draggable="false"></div>
+        <h2>Antonio Machado</h2>
+        <span>1875-1939</span>
+        <ul class="books" onc>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBNVhb89456_j4jCpVnlNeXAbZse3o7KM70w&s"><a href="../Pdf/La-guerra-Machado-Antonio.pdf" target="_blank">La Guerra</a></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEjYvjG2mi5Z7cqLTKrFowmLIrfMqG0G3FVQ&s"><a href="../Pdf/Soledades.pdf" target="_blank">Soledades. Galerías</a></li>
+        </ul>
+      </li>
+      <li class="card">
+        <div class="img"><img src="https://www.biografiasyvidas.com/biografia/c/fotos/camus.jpg" alt="img" draggable="false"></div>
+        <h2>Albert Camus</h2>
+        <span>1913-1960</span>
+        <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/51+O-PikJbL.jpg"><a href="../Pdf/1. libros/albert camus/Camus, Albert - El Extranjero.pdf" target="_blank">El extranjero</a></li>
+          <li><img src="https://editoresmexicanosunidos.mx/wp-content/uploads/2022/02/PESTEEMUBE9786071415479.png"><a href="../Pdf/1. libros/albert camus/Camus, Albert - La Peste.pdf" target="_blank">La peste</a></li>
+        </ul>
+      </li>
+        <li class="card">
+          <div class="img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Boris_Vian_-_WIKI_retouched.jpg/640px-Boris_Vian_-_WIKI_retouched.jpg" alt="img" draggable="false"></div>
+          <h2>Boris Vian</h2>
+          <span>1920-1959</span>
+           <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/71+MBnO8NUL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/el-lobo-hombre-de-boris-vian.pdf" target="_blank">El lobo-hombre</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/41zeDRJ5nrL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/Escupiré sobre vuestra tumba.pdf" target="_blank">ESCUPIRÉ SOBRE VUESTRA TUMBA</a></li>
+        </ul>
+        </li>
+        <li class="card">
+          <div class="img"><img src="https://www.elsoldepuebla.com.mx/cultura/a65vyy-charles-dickens-el-escritor-detras-de-obras-como-un-cuento-de-navidad-y-oliver-twist/alternates/LANDSCAPE_400/Charles%20Dickens,%20el%20escritor%20detr%C3%A1s%20de%20obras%20como%20%E2%80%98Un%20cuento%20de%20navidad%E2%80%99%20y%20%E2%80%98Oliver%20Twist%E2%80%99" alt="img" draggable="false"></div>
+          <h2>Charles Dickens</h2>
+          <span>1812-1870</span>
+        <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/51JtZDzk2wL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/Casa desolada - Charles Dickens.pdf" target="_blank">Casa desolada</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/71YmPk8ZDHL._AC_UF894,1000_QL80_.jpg"><a href="../Pdf/Tiempos Difíciles.pdf" target="_blank">Tiempos dificiles</a></li>
+        </ul>
+        </li>
+        <li class="card">
+        <div class="img"><img src="https://www.clarin.com/2024/02/09/nBt-zKMS__2000x1500__1.jpg" alt="img" draggable="false"></div>
+        <h2>Charles Bukowski</h2>
+        <span>1920-1994</span>
+        <ul class="books" onc>
+          <li><img src="https://www.anagrama-ed.es/uploads/media/portadas/0001/14/938a305a1ad00c4fc89b846628746fc8b12fe349.jpeg"><a href="../Pdf/1. libros/charles bukowski/Charles Bukowski - El cartero.pdf" target="_blank">El cartero</a></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPwETbktk4TZ9e4VB_Lku8OZWcccdIOz6f0Q&s"><a href="../Pdf/1. libros/charles bukowski/charles-bukowsky-la-senda-del-perdedor.pdf" target="_blank">La senda del perdedor</a></li>
+        </ul>
+      </li>
+          <li class="card">
+        <div class="img"><img src="https://www.worldhistory.org/img/r/p/500x600/10260.jpg?v=1711895529" alt="img" draggable="false"></div>
+        <h2>Dante Alighieri</h2>
+        <span>1265-1321</span>
+        <ul class="books" onc>
+          <li><img src="https://images.cdn1.buscalibre.com/fit-in/360x360/bb/e5/bbe5d6af8331a8a3924280b5533fb868.jpg"><a href="../Pdf/1. libros/Dante Alighieri/El_convivio-Dante_Alighieri.pdf" target="_blank">El convivio</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/71WJbXGxPdL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/Dante Alighieri/La_divina_comedia-Dante_Alighieri.pdf" target="_blank">La Divina Comedia</a></li>
+        </ul>
+      </li>
+        <li class="card">
+        <div class="img"><img src="https://i0.wp.com/www.gazzettadiavellino.it/wp-content/uploads/2018/05/cioran.jpg?fit=1280%2C720&ssl=1" alt="img" draggable="false"></div>
+        <h2>Emil Cioran</h2>
+        <span>1911-1995</span>
+        <ul class="books" onc>
+          <li><img src="https://imgv2-2-f.scribdassets.com/img/document/542090011/149x198/773b4c1370/1707768801?v=1"><a href="../Pdf/1. libros/emil cioran/emil-cioran-el-aciago-demiurgo28196929.pdf" target="_blank" target="_blank">El aciago demiurgo</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/81D1d7eEEZL._AC_UF1000,1000_QL80_.jpg" target="_blank"><a href="../Pdf/1. libros/emil cioran/En-las-cimas-de-la-desesperacion.pdf" target="_blank">En las cimas de la desesperacion</a></li>
+        </ul>
+      </li>
+        <li class="card">
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkzuZRIpYWZNmPwFcyOEfRAkaZeaVnAmHOg&s" alt="img" draggable="false"></div>
+        <h2> García Lorca</h2>
+        <span>1898-1936</span>
+        <ul class="books" onc>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwFo5Lno2_5DRxZMdW-HBiEZn9O8Lz2tTaMw&s"><a href="../Pdf/1. libros/García Lorca, Federico/El_maleficio_de_la_mariposa-Garcia_Lorca_Federico.pdf" target="_blank">El Maleficio de a mariposa</a></li>
+          <li><img src="https://images.cdn3.buscalibre.com/fit-in/360x360/4b/1d/4b1dc68514bb68807827ccaf9c93bf7a.jpg"><a href="../Pdf/1. libros/García Lorca, Federico/POEMAS.pdf" target="_blank">Libro de poemas</a></li>
+        </ul>
+      </li>
+        <li class="card">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRtYBdlA1nkaJDH-V6zRgX72L6p_rAD7a15Vbttgfx56neYESuGvnGHBxvHJyFfKPnf0&usqp=CAU" alt="img" draggable="false"></div>
+          <h2>H.P. Lovecraft</h2>
+          <span>1890-1937</span>
+           <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/61lDWq8wOUL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/H. P. Lovecraft/El_alquimista-H._P._Lovecraft.pdf" target="_blank">El alquimista</a></li>
+          <li><img src="https://www.elejandria.com/covers/La_llamada_de_Cthulhu-H._P._Lovecraft-lg.png"><a href="../Pdf/1. libros/H. P. Lovecraft/La_llamada_de_Cthulhu-H._P._Lovecraft.pdf" target="_blank">La llamada de cthulhu</a></li>
+        </ul>
+        </li>
+        <li class="card">
+        <div class="img"><img src="https://i.guim.co.uk/img/static/sys-images/Arts/Arts_/Pictures/2013/2/4/1359987623852/pride-and-Prejudice-the-m-010.jpg?width=465&dpr=1&s=none" alt="img" draggable="false"></div>
+        <h2>Jane Austen</h2>
+        <span>1775-1817</span>
+        <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/61wAZk6G8mL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/Jane Austen/Orgullo_y_prejuicio-Jane_Austen.pdf" target="_blank">Orgullo y prejuicio</a></li>
+          <li><img src="https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/6254540b83a0b117317fcf20_6034d7d1f3e0f50480b2b2fd_Sentido-y-sensibilidad-jane-austen-editorial-alma.jpeg"><a href="../Pdf/1. libros/Jane Austen/Sentido_y_sensibilidad-Jane_Austen.pdf" target="_blank">Sentido y Sensibilidad</a></li>
+        </ul>
+      </li>
+       <li class="card">
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqV65uJgZG3ahEE41Mvaq23sdb0Rcdr1NjsQ&s" alt="img" draggable="false"></div>
+        <h2>Juan Rulfo</h2>
+        <span>1917-1986</span>
+        <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/71iJP+zHpbL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/juan rulfo/Cartas a Clara.pdf" target="_blank">Cartas a Clara</a></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXm_orQeLraP1XzFP6DJ3Sf6ysw4ZvOLVwdg&s"><a href="../Pdf/1. libros/juan rulfo/Juan Rulfo - Pedro Páramo.pdf" target="_blank">Pedro Paramo</a></li>
+        </ul>
+      </li>
+      <li class="card">
+        <div class="img"><img src="https://pymstatic.com/26981/conversions/poemas-julio-cortazar-small-16_9.jpg" alt="img" draggable="false"></div>
+        <h2>Julio Cortazar</h2>
+        <span>1914-1984</span>
+        <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/71hdP43pPpL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/julio cortazar/119-2014-02-19-Cortazar.LaNocheBocaArriba.pdf" target="_blank">La noche boca arriba</a></li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Rayuela_JC.png/640px-Rayuela_JC.png"><a href="../Pdf/1. libros/julio cortazar/Julio Cortazar - Rayuela.pdf" target="_blank">Rayuela</a></li>
+        </ul>
+      </li>
+        <li class="card">
+          <div class="img"><img src="https://pymstatic.com/84140/conversions/marques-de-sade-default.jpg" alt="img" draggable="false"></div>
+          <h2>Marqués de Sade</h2>
+          <span>1740-1814</span>
+           <ul class="books" onc>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHAnkEDUIgO7YzyNLPL4l0Vv8UKgji8EY07w&s"><a href="../Pdf/1. libros/Marqués de Sade/Los_120_dias_de_Sodoma-Marques_de_Sade.pdf" target="_blank">Los 120 dias de Sodoma</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/61QjonhveaL._AC_UF894,1000_QL80_.jpg"><a href="../Pdf/1. libros/Marqués de Sade/Los_crimenes_del_amor-Marques_de_Sade.pdf" target="_blank">Los crimenes del amor</a></li>
+        </ul>
+        </li>
+         <li class="card">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gd0BO6KV6sbXU41KwGbb0K-2sH4pTIQKfA&s" alt="img" draggable="false"></div>
+          <h2>Mario Benedetti</h2>
+          <span>1920-2009</span>
+           <ul class="books" onc>
+          <li><img src="https://www.elsotano.com/imagenes_grandes/9786073/978607313673.JPG"><a href="../Pdf/1. libros/mario benedetti/primavera-con-una-esquina-rota.pdf" target="_blank">Primavera con una esquina rota</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/81va7GRHBbL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/mario benedetti/Quien de nosotros - Mario Benedetti.pdf" target="_blank">¿Quien de nosotros?</a></li>
+        </ul>
+        </li>
+        <li class="card">
+          <div class="img"><img src="https://cdn.milenio.com/uploads/media/2019/10/16/escritor-oscar-wilde-nacio-octubre_0_90_958_596.jpg" alt="img" draggable="false"></div>
+          <h2>Oscar Wilde</h2>
+          <span>1854-1900</span>
+           <ul class="books" onc>
+          <li><img src="https://www.planetadelibros.com.mx/usuaris/libros/fotos/383/m_libros/382805_portada_el-retrato-de-dorian-gray_oscar-wilde_202307191606.jpg"><a href="../Pdf/1. libros/o/Oscar Wilde El Retrato de Dorian Gray.pdf" target="_blank">El retrato de Dorian Gray</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/911dV6F0d6L._AC_UF894,1000_QL80_.jpg"><a href="../Pdf/1. libros/o/Wilde, Oscar - El principe feliz (1).pdf" target="_blank">El principe feliz</a></li>
+        </ul>
+        </li>
+        <li class="card">
+          <div class="img"><img src="https://www.elviejotopo.com/wp-content/uploads/2021/12/Ray-Bradbury.jpg" alt="img" draggable="false"></div>
+          <h2>Ray Bradbury</h2>
+          <span>1920-2012</span>
+           <ul class="books" onc>
+          <li><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404680561i/22671267.jpg"><a href="../Pdf/1. libros/R/El ruido de un trueno.pdf" target="_blank">El ruido de un trueno</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/511l6LVWfoL.jpg"><a href="../Pdf/1. libros/R/Ray Bradbury - Cronicas Marcianas.pdf" target="_blank">Cronicas Marcianas</a></li>
+        </ul>
+        </li>
+      <li class="card">
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVom404OP1CvMkdq3g_FQPu4iOLas7KGD3Ag&s" alt="img" draggable="false"></div>
+        <h2>Stephen King</h2>
+        <span>1947</span>
+        <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/81BbWGXQaIL._AC_UF894,1000_QL80_.jpg"><a href="../Pdf/1. libros/S/stephen_king_-_la_cpula.pdf" target="_blank">La copula</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/71oWFPril4L._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/S/It (Eso).pdf" target="_blank">It</a></li>
+        </ul>
+      </li>
+        <li class="card">
+          <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSQxFBsZoZpp7TCo55bFWUV6VzhmzEYJ0Vtg&s" alt="img" draggable="false"></div>
+          <h2>Thomas Mann</h2>
+          <span>1875-1955</span>
+           <ul class="books" onc>
+          <li><img src="https://m.media-amazon.com/images/I/71yC5FMK1DL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/T/La muerte en Venecia & Mario y el mago.pdf" target="_blank">La muerte en Venecia</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/81M-bGp+5AS._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/T/La montana magica - Thomas Mann.pdf" target="_blank">La montaña magica</a></li>
+        </ul>
+        </li>
+         
+        <li class="card">
+          <div class="img"><img src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2019/04/26/5fa5172fc8ddf.jpeg" alt="img" draggable="false"></div>
+          <h2>William Shakespeare</h2>
+          <span>1564-1616</span>
+           <ul class="books" onc>
+          <li><img src="https://images.cdn2.buscalibre.com/fit-in/360x360/94/29/94296985aefedbcfe4a180cfabc3adf4.jpg"><a href="../Pdf/1. libros/W/Sueño-de-una-noche-de-verano.pdf" target="_blank">Sueño de una noche de verano</a></li>
+          <li><img src="https://m.media-amazon.com/images/I/71lpakKeKpL._AC_UF1000,1000_QL80_.jpg"><a href="../Pdf/1. libros/W/romeo y julieta pdf.pdf" target="_blank">Romeo y Julieta</a></li>
+        </ul>
+        </li>
+        
+      </ul>
+     
+      <i id="right" class='bx bxs-chevron-right' ></i>
+    </div>
+    </div>
+  </section>
+
+ 
+
+  </body>
+</html>
+</body>
+  <script src="../js/script.js"></script>
+  <script src="../js/scrpts.js" defer></script>
+</html>

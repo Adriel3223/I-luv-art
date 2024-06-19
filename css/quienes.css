@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; 
+
+}
+
+body {
+  display: flex;
+  background: url(https://i.pinimg.com/564x/f1/18/8f/f1188f226a001a59ccd2fc3568dd4eb2.jpg);
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.uv {
+  color: #BFD3D1;
+  font-size: 20px;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: justify;
+  overflow-y: auto;
+  max-height: 80vh;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5); 
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Elimina el margen predeterminado de la lista */
+}
+
+.team-list li {
+  display: flex; /* Cambia a un diseño de fila con flexbox */
+  margin-bottom: 20px; /* Espacio entre cada elemento de la lista */
+}
+
+.team-list li img {
+  width: 200px; /* Ajusta el ancho de la imagen según sea necesario */
+  height: 200px; /* Ajusta la altura de la imagen según sea necesario */
+  border-radius: 50%; /* Borde redondeado para la imagen */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+  align-items: center;
+}
+
+.team-list li div {
+  flex: 1; /* El texto ocupa todo el espacio restante */
+}
+
+}

@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor de Música</title>
+  <link rel="stylesheet" href="../css/style.css">
+   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'
+    rel='stylesheet'>
+   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+           <img src="../img/logo.png">
+      <span class="logo_name"style='color:#080808'>Servicios</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="../Index.html">
+          <i class='bx bxs-devices'></i>
+          <span class="link_name">Inicio</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Index.html">Inicio</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="Biblioteca.html">
+          <i class='bx bx-food-menu'></i>
+          <span class="link_name">Biblioteca</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="Biblioteca.html">Biblioteca</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="Musica.html">
+             <i class='bx bxs-playlist'></i>
+            <span class="link_name">Musica</span>
+          </a>
+         
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="Musica.html">Musica</a></li>
+        </ul>
+      </li>
+     
+      <li>
+         <li>
+        <a href="historia.html">
+          <i class='bx bx-image'></i>
+          <span class="link_name">Zona de Arte</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="historia.html">Zona de Arte</a></li>
+        </ul>
+      </li>
+     
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+          <i class='bx bxs-contact' ></i>
+          <span class="link_name">Contactanos</span>
+        </a>
+        <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Contactanos</a></li>
+          <li><a href="https://www.facebook.com/share/n86XimDVaZpAgwWe/?mibextid=LQQJ4d">Facebook</a></li>
+            <li><a href="https://www.instagram.com/iluvart27?igsh=MWlnNXppMnpnNWo5Yw==">Instagram</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="quienes.html">
+          <i class='bx bxs-edit-location'></i>
+          <span class="link_name">¿Quienes somos?</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="quienes.html">¿Quienes somos?</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <img src="../img/eder.png" alt="profileImg">
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Administrador</div>
+        <div class="job">Creador:Adriel</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">I LUV ART</span>
+    </div>
+  </section>
+  <!-- Reproductor de música -->
+  <div class="wrapper">
+    <div class="top-bar">
+      <span>Reproduciendo</span>
+       <i class='bx bxs-music' style='color:#f5eeee'  ></i>
+    </div>
+    <!-- Área de imagen -->
+    <div class="img-area">
+      <img src="" alt="">
+    </div>
+    <!-- Detalles de la canción -->
+    <div class="song-details">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+    <!-- Área de progreso -->
+    <div class="progress-area">
+      <div class="progress-bar">
+        <audio id="main-audio" src=""></audio>
+      </div>
+      <div class="song-timer">
+        <span class="current-time">0:00</span>
+        <span class="max-duration">0:00</span>
+      </div>
+    </div>
+    <!-- Controles de reproducción -->
+    <div class="controls">
+      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+      <i id="prev" class="material-icons">skip_previous</i>
+      <div class="play-pause">
+        <i class="material-icons play">play_arrow</i>
+      </div>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+    <!-- Lista de reproducción -->
+    <div class="music-list">
+      <div class="header">
+        <div class="row">
+          <i class= "list material-icons">queue_music</i>
+          <span>Canciones</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul class="song-list">
+
+      </ul>
+    </div>
+  </div>
+</body>
+<!-- Scripts -->
+  <script src="../js/music-list.js"></script>
+  <script src="../js/scripts2.js"></script>
+  <script src="../js/script.js"></script>
+</html>

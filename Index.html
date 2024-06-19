@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta charset -->
+    <meta charset="UTF-8">
+    <!-- Título de la página -->
+    <title>I luv Art</title>
+    <!-- Enlaces a archivos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/Inicio.css">
+    <!-- Enlaces a fuentes externas -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuentes de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Barra lateral -->
+    <div class="sidebar close">
+      <!-- Detalles del logotipo -->
+      <div class="logo-details">
+        <!-- Icono del hogar y nombre de servicios -->
+             <img src="img/logo.png">
+        <span class="logo_name"style='color:#080808'>Servicios</span>
+      </div>
+      <!-- Lista de enlaces de navegación -->
+      <ul class="nav-links">
+        <!-- Enlace a Inicio -->
+        <li>
+          <a href="Index.html">
+            <i class='bx bxs-devices'></i>
+            <span class="link_name">Inicio</span>
+          </a>
+          <!-- Submenú para Inicio -->
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="Index.html">Inicio</a></li>
+          </ul>
+        </li>
+        <!-- Enlace a Biblioteca -->
+        <li>
+          <a href="html/Biblioteca.html">
+            <i class='bx bx-food-menu'></i>
+            <span class="link_name">Biblioteca</span>
+          </a>
+          <!-- Submenú para Biblioteca -->
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="html/Biblioteca.html">Biblioteca</a></li>
+          </ul>
+        </li>
+        <!-- Enlace a Música -->
+        <li>
+          <div class="iocn-link">
+            <a href="html/Musica.html">
+               <i class='bx bxs-playlist'></i>
+              <span class="link_name">Musica</span>
+            </a>
+          </div>
+          <!-- Submenú para Música -->
+          <ul class="sub-menu">
+            <li><a class="link_name" href="html/Musica.html">Musica</a></li>
+          </ul>
+        </li>
+       
+        <!-- Enlace a Zona de Arte -->
+        <li>
+          <a href="html/historia.html">
+            <i class='bx bx-image'></i>
+            <span class="link_name">Zona de Arte</span>
+          </a>
+          <!-- Submenú para Zona de Arte -->
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="html/historia.html">Zona de Arte</a></li>
+          </ul>
+        </li>
+        <!-- Submenú para Iniciar Sesion-->
+        <!-- Enlace a Contacto -->
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+            <i class='bx bxs-contact' ></i>
+            <span class="link_name">Contactanos</span>
+          </a>
+          <!-- Submenú para Contacto -->
+          <i class='bx bxs-chevron-down arrow' ></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Contactanos</a></li>
+            <li><a href="https://www.facebook.com/share/n86XimDVaZpAgwWe/?mibextid=LQQJ4d">Facebook</a></li>
+            <li><a href="https://www.instagram.com/iluvart27?igsh=MWlnNXppMnpnNWo5Yw==">Instagram</a></li>
+          </ul>
+        </li>
+        <!-- Enlace a Quiénes somos -->
+        <li>
+          <a href="quienes.html">
+            <i class='bx bxs-edit-location'></i>
+            <span class="link_name">¿Quienes somos?</span>
+          </a>
+          <!-- Submenú para Quiénes somos -->
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="quienes.html">¿Quienes somos?</a></li>
+          </ul>
+        </li>
+        <!-- Detalles del perfil del administrador -->
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="img/eder.png" alt="profileImg">
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Administrador</div>
+              <div class="job">Creador:Adriel</div>
+            </div>
+            <!-- Icono de cierre de sesión -->
+            <i class='bx bx-log-out' ></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- Sección principal -->
+    <section class="home-section">
+      <!-- Contenido de la sección principal -->
+      <div class="home-content">
+        <!-- Icono de menú -->
+        <i class='bx bx-menu' ></i>
+        <!-- Título principal de la página -->
+        <span class="text">I LUV ART</span>
+      </div>
+    </section>
+    <!-- Contenedor de video de fondo -->
+    <div class="video-container">
+      <!-- Video de fondo -->
+      <video autoplay muted loop id="video-background">
+        <!-- Fuente del video -->
+        <source src="videos/Inicio.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <!-- Contenido superpuesto al video de fondo -->
+        <h1 id="ani">¡Bienvenidos!</h1>
+      </div>
+    </div>
+    <!-- Script de JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

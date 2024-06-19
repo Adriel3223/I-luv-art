@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  padding: 0 px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: whithe;
+  }
+  #ani{
+   white-space: nowrap;
+   border-right: 4px solid;
+   width: 20ch;
+   animation:typing 2s steps(19), blink 10.0s infinite step-end alternate ;
+   overflow: hidden;
+
+  }
+  @keyframes typing{
+    from{ width:0 }
+  }
+   @keyframes blink{
+    50%{ border-color:transparent; }
+  }
+.video-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#video-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin: 50px 100px;
+  opacity: .9;
+
+  font-size: 20px;
+ 
+}
+h1{
+  display: inline-block;
+  text-align: center;
+ font-family: "Major Mono Display";
+  font-size: 65px;
+  padding: 20px;
+  margin: 0 100px;
+}
+p{
+  text-align: justify;
+  margin: 20px;
+}
